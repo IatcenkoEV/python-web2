@@ -6,3 +6,6 @@ import re
                                     #который может быть использован для поиска
 # re.split(pattern, string, [maxsplit=0]) #Этот метод разделяет строку по заданному шаблону
 # re.sub(pattern, repl, string)     #Этот метод ищет шаблон в строке и заменяет его на указанную подстроку
+p = re.compile(r'(exe|py|htm|html)')
+p.sub('files','i can use exe')
+print(p.sub)
